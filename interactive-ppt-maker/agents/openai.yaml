@@ -1,0 +1,8 @@
+interface:
+  display_name: "Interactive PPT Maker"
+  short_description: "Create PPTs through outline, logic-driven slide design, visual previews, and editable decks."
+  brand_color: "#20D9FF"
+  default_prompt: "Use $interactive-ppt-maker to create a PPT with an outline, logic-driven slide layouts, style preview, and editable deck generation."
+
+policy:
+  allow_implicit_invocation: true

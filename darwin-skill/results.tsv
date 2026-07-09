@@ -1,0 +1,23 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-07-07T10:00:00+08:00	602233a	docx	-	81.0	baseline	-	frontmatter规范，工作流清晰，具体命令丰富，但检查点和失败模式可加强	dry_run
+2026-07-07T10:00:00+08:00	602233a	frontend-design	-	76.0	baseline	-	设计导向清晰，但失败模式、检查点、反例清单较弱	dry_run
+2026-07-07T10:00:00+08:00	602233a	pdf	-	81.0	baseline	-	功能覆盖全，操作具体，检查点和异常处理可更显性	dry_run
+2026-07-07T10:00:00+08:00	602233a	skill-creator	-	77.0	baseline	-	官方指南结构完整，但缺少显式检查点和失败模式编码	dry_run
+2026-07-07T10:00:00+08:00	602233a	xlsx	-	80.0	baseline	-	财务建模规范详细，但检查点和异常分支不够显性	dry_run
+2026-07-07T10:00:00+08:00	602233a	planning-with-files	-	71.0	baseline	-	复杂任务规划能力强，但 frontmatter 过长，失败模式和检查点偏弱	dry_run
+2026-07-07T10:00:00+08:00	602233a	qiuzhi-skill-creator	-	71.0	baseline	-	交互式流程完整，但具体性、失败模式、反例清单有提升空间	dry_run
+2026-07-07T10:00:00+08:00	602233a	pptx	-	81.0	baseline	-	覆盖 PPT 全生命周期，命令具体，检查点和失败模式可加强	dry_run
+2026-07-07T10:00:00+08:00	602233a	interactive-ppt-maker	-	70.0	baseline	-	分阶段流程合理，但具体性和失败模式较弱，检查点不够显性	dry_run
+2026-07-07T10:00:00+08:00	602233a	doc-audit	-	82.0	baseline	-	审核维度完整，有前置确认和反例清单，整体最成熟	dry_run
+2026-07-07T10:00:00+08:00	602233a	zijin-python-guide	-	75.0	baseline	-	面向零基础 PM 解释清晰，但检查点和失败模式可补充	dry_run
+2026-07-07T10:00:00+08:00	602233a	meeting-action-extractor	-	72.0	baseline	-	角色定位清晰，但工作流步骤和失败模式可更具体	dry_run
+2026-07-07T10:00:00+08:00	602233a	explain	-	76.0	baseline	-	推导链设计合理，但缺少显式检查点和反例黑名单	dry_run
+2026-07-07T10:00:00+08:00	602233a	meeting-minutes-writer	-	77.0	baseline	-	会议纪要原则清晰，但检查点和异常处理可加强	dry_run
+2026-07-07T10:00:00+08:00	602233a	workspace-cleaner	-	78.0	baseline	-	流程清晰，有禁止事项反例，但检查点视觉标记可更显性	dry_run
+2026-07-07T14:42:03+08:00	e2491f9	explain	76.0	80.0	keep	dim4	增加显性 clarification checkpoint，列出3种确认方式	dry_run
+2026-07-07T15:38:30+08:00	0f41017	explain	80.0	82.4	keep	dim3	增加失败模式处理表，覆盖听不懂/复述错/超范围/主题漂移	dry_run
+2026-07-07T15:40:19+08:00	1535666	explain	82.4	84.2	keep	dim9	增加反例黑名单章节，6个反例配正确做法	dry_run
+2026-07-07T23:10:35+08:00	f1d55a0	interactive-ppt-maker	70.0	77.1	keep	dim4	增加checkpoint地图，明确4个必须确认节点	dry_run
+2026-07-07T23:11:13+08:00	238bfae	interactive-ppt-maker	77.1	80.7	keep	dim3	增加失败模式处理表，覆盖RAG/图像/PPT生成/格式等失败	dry_run
+2026-07-07T23:11:56+08:00	b784286	interactive-ppt-maker	80.7	81.9	keep	dim9	增加反例黑名单章节，汇总7个常见错误做法	dry_run
+2026-07-09T10:46:39+08:00	aca4e5a	darwin-skill	82.3	83.5	keep	dim3/dim5	扩展skill扫描路径，增加远程skill诊断流程	dry_run
