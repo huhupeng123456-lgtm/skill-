@@ -11,6 +11,13 @@ Explain technical concepts to users who have no computer science background but 
 
 **从已知的推导到未知的。** 用户没有 CS 背景，不能直接扔定义。必须先找到用户已经理解的前置认知，以此为起点，一步一步因果推导到目标概念。每一步必须说清楚"为什么必须这样"，不能跳步，不能省略小概念。
 
+## External Write Boundary
+
+- Default to answering only in the current conversation.
+- Do not create or update Obsidian/OBS notes, knowledge-base files, operation logs, or indexes merely because this skill was invoked.
+- Treat requests to explain, review, give examples, or continue teaching as read-only requests. They do not authorize saving or archiving.
+- Write to an external system only when the user explicitly asks for that write in the current request, such as "保存到 OBS" or "写入知识库". Then follow the target system's write rules.
+
 ## Output Format
 
 ### 第一步：识别依赖链

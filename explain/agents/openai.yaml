@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain"
+  short_description: "面向非技术 AI 产品经理，沿前置知识链逐步讲清技术概念"
+  default_prompt: "Use $explain to explain this technical concept step by step in plain Chinese."
