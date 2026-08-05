@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目与会话沉淀"
+  short_description: "从会话或整个项目上下文找出高价值规律并正确分流"
+  default_prompt: "使用 $distill-session 检查当前对话或项目上下文，先找全并排序重要纠正，再分流并逐项确认。"
+policy:
+  allow_implicit_invocation: true

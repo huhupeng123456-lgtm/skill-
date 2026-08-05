@@ -1,0 +1,4 @@
+interface:
+  display_name: "对外简历写作"
+  short_description: "中文投递简历写作与审校，识别内部汇报口径和无面试价值表达"
+  default_prompt: "Use $external-resume-writer to rewrite my resume for an external job application."

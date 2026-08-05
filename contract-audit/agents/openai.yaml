@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract Audit"
+  short_description: "Review contracts with practical comments."
+  default_prompt: "Use $contract-audit to review this contract and add clear practical comments."

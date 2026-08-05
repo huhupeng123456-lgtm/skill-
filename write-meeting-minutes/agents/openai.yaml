@@ -1,0 +1,4 @@
+interface:
+  display_name: "正式会议纪要"
+  short_description: "长会议逐段覆盖，完整提取决策、责任分工、待确认和行动项"
+  default_prompt: "使用 $write-meeting-minutes 完整扫描这份会议材料，先核对说话人身份、关键决策和每条责任分工，再生成结论前置、行动清晰的四段式正式纪要。"

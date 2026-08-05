@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Project Engineering"
+  short_description: "Turn AI PRDs and demos into delivery plans."
+  default_prompt: "Use $agent-engineering-playbook to turn this AI project requirement into an engineering-ready delivery plan."

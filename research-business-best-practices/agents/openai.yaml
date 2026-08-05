@@ -1,0 +1,4 @@
+interface:
+  display_name: "业务最佳实践研究"
+  short_description: "用一屏结论提炼有证据、可迁移、可执行的业务最佳实践"
+  default_prompt: "使用 $research-business-best-practices 研究一个业务问题，先用一屏结论给出最多三项实践、边界和下一步。"

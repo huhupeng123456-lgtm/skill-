@@ -1,0 +1,4 @@
+interface:
+  display_name: "大模型概念解释"
+  short_description: "优先保证完整文字，配图单独生成"
+  default_prompt: "Use $llm-concept-explainer to explain a confusing AI or engineering concept from zero foundation in plain Chinese. Protect the complete text as the final visible answer. Do not call image generation in the same turn. Generate a visual only in a separate follow-up turn when the user explicitly asks for one."

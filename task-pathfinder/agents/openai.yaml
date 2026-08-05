@@ -1,0 +1,4 @@
+interface:
+  display_name: "任务落地拆解"
+  short_description: "结合个人背景，把模糊大任务拆成可立即执行的手把手行动路径"
+  default_prompt: "Use $task-pathfinder to turn my vague goal into a concrete, context-aware execution path."
