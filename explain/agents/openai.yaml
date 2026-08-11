@@ -1,4 +1,4 @@
 interface:
   display_name: "Explain"
-  short_description: "面向非技术 AI 产品经理，沿前置知识链逐步讲清技术概念"
-  default_prompt: "Use $explain to explain this technical concept step by step in plain Chinese."
+  short_description: "准确优先，并在精准匹配时结合用户熟悉场景解释技术概念"
+  default_prompt: "Use $explain to explain this concept accurately, using a directly relevant user-memory scenario only when it truly fits."

@@ -23,6 +23,7 @@
 
 - `.git`、`node_modules`、虚拟环境、缓存、构建目录和运行输出；
 - `.env`、私钥、证书、日志和 Python 缓存文件；
+- `gstack-global-discover.exe` 本地编译运行文件；
 - 命中 GitHub Token、AWS Access Key、OpenAI Key 或私钥特征的非测试文件。
 
 运行日志和隔离 Git 工作副本位于 `%LOCALAPPDATA%\CodexSkillGitHubSync`，不写入本仓库。

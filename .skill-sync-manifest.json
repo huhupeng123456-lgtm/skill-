@@ -78,6 +78,7 @@
                            "*.log",
                            "*.pyc",
                            ".DS_Store",
-                           "Thumbs.db"
+                           "Thumbs.db",
+                           "gstack-global-discover.exe"
                        ]
 }
