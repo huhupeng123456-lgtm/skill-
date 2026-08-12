@@ -1,4 +1,0 @@
-interface:
-  display_name: "Real Project"
-  short_description: "Turn software ideas into real deliverable projects."
-  default_prompt: "Use $real-project to turn my software idea into a real deliverable project before coding."
