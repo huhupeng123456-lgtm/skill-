@@ -1,0 +1,5 @@
+interface:
+  display_name: "双向钢人决策"
+  short_description: "强化正反观点，识别关键变量，再给出明确判断和行动建议"
+  default_prompt: "使用 $steelman-decisions 挑战我当前的决定，找出能改变结论的关键变量，并在必要时只问我一个问题。"
+
