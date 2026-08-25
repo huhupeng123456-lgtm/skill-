@@ -1,4 +1,4 @@
 interface:
   display_name: "Explain"
-  short_description: "准确优先，并在精准匹配时结合用户熟悉场景解释技术概念"
-  default_prompt: "Use $explain to explain this concept accurately, using a directly relevant user-memory scenario only when it truly fits."
+  short_description: "建立概念边界、判断标准与可迁移应用能力"
+  default_prompt: "Use $explain to explain this concept in context, show how to distinguish it from non-examples, and help me apply it to a new case."
