@@ -1,6 +1,6 @@
 ---
 name: explain
-description: Explain, distinguish, and apply technical or business concepts by preserving the source context and building transferable judgment criteria. Use for questions such as "X 是什么", "X 和 Y 有什么区别", "为什么这里叫 X", "我还是不懂 X", "举例说明 X", "这个案例算不算 X", "这个概念在工作中怎么用", or when the user knows a definition but cannot recognize or apply it. Also use for follow-up corrections. Do not use when the primary task is software操作陪练、逐行代码教学或代为执行，而不需要解释概念。
+description: Explain, distinguish, and apply technical or business concepts by preserving source context and building transferable judgment criteria. Use for "X 是什么", "X 和 Y 有什么区别", "为什么这里叫 X", "我还是不懂 X", "这个案例算不算 X", "这个概念怎么用", or when the user asks why a field, checkbox, formula, condition, node, table, or intermediate step is needed, what breaks if it is removed, or whether an existing component can replace it. Also use when the user knows a definition but cannot recognize or apply it, and for follow-up corrections. Do not use when the primary task is pure software click-through, line-by-line code instruction, or execution without any conceptual or causal explanation need.
 ---
 
 # Explain
@@ -74,6 +74,29 @@ description: Explain, distinguish, and apply technical or business concepts by p
 - **决策**：知识 + 当前目标和约束 → 此刻采取的行动。
 
 不要把专家建议直接包装成普遍知识。解释“为什么建议这样做”时，说清依赖的关系、目标和条件。
+
+## 结构性配置解释门禁
+
+当建议新增表、字段、复选框、公式、触发条件、工作流节点或中间转换时，不能从“怎么点”开始。必须先依次回答：
+
+1. 当前目标：用户最终要让系统稳定做到什么；
+2. 已观察到的失败或风险：当前链路已经出现或可以明确预期的具体问题；
+3. 系统缺少的最小状态或判断：要阻止这个问题，系统还不知道哪件事；
+4. 新组件的唯一职责：它只负责记录、判断或传递什么，不要同时塞入多个职责；
+5. 因果位置：上游输入 → 新组件如何改变判断 → 下游动作；
+6. 替代检查：现有字段、关联关系、状态、公式或工作流能否稳定表达同一约束；
+7. 删除后果：如果不加，哪一环会重复、遗漏、误触发或无法验收；
+8. 验收证据：加入后看什么记录、状态、日志或结果，能证明问题被解决。
+
+随后把建议明确判为以下三类之一：
+
+- **必要**：存在具体失败，且现有组件不能稳定替代；
+- **有用但可选**：主要降低操作成本、增强可读性或便于管理；
+- **冗余**：现有可靠组件已经表达同一约束，新增只会形成重复状态或同步风险。
+
+若讲不出具体失败、不可替代职责和可观察证据，拒绝新增。若现有字段、关联、状态或工作流能稳定表达同一约束，优先复用，不新造中间层。解释成立后才进入点击、公式或配置步骤。
+
+结构性学习的完成标准不是用户能复现点击路径，而是用户换一个场景后，能判断“要不要新增、为什么、用什么现有能力替代”。
 
 ## 自适应解释流程
 
