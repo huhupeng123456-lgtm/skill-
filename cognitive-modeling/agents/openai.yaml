@@ -1,0 +1,14 @@
+interface:
+  display_name: 认知建模
+  short_description: 把模糊情境重建为清晰、可判断、可验证并可行动的问题模型
+  default_prompt: Use $cognitive-modeling to reconstruct this messy situation into
+    a clear, testable model before deciding what to do.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
