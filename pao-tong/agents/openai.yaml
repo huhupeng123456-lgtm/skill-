@@ -1,4 +1,4 @@
 interface:
-  display_name: "跑通式技能陪练"
-  short_description: "通过真实任务、变式练习和故障排查，陪用户掌握软件操作或Agent工程技能"
-  default_prompt: "使用 $pao-tong 带我通过真实任务掌握一项软件或 Agent 工程技能，并用独立挑战验证我能否独立完成。"
+  display_name: "跑通式课程与技能陪练"
+  short_description: "通过课程上下文、真实任务、变式练习和故障排查，陪用户形成可迁移能力"
+  default_prompt: "使用 $pao-tong 按课程或真实任务带我完成一个可验证闭环，并用变式、故障和未见任务检查我能否独立迁移。"

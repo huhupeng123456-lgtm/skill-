@@ -1,6 +1,6 @@
 ---
 name: pao-tong
-description: Turn a software, engineering, or Agent learning goal into real tasks, guided practice, varied conditions, fault diagnosis, and an unseen independent challenge with evidence. Use for “带我跑通”, “手把手教我做”, “让我真正掌握”, “用真实场景练习”, “我要能独立完成”, or when the goal is to operate, build, debug, or transfer knowledge into real work. Completion requires independent performance in a real or near-real environment; do not use for concept-only explanation, definition lookup, or one-off execution performed entirely by the assistant.
+description: Turn a course, software, engineering, or Agent learning goal into real tasks, guided practice, varied conditions, fault diagnosis, and an unseen independent challenge with evidence. Use for “带我学这门课”, “按讲义继续”, “带我跑通”, “手把手教我做”, “让我真正掌握”, “用真实场景练习”, or when the goal is to operate, build, debug, or transfer knowledge into real work. Completion requires independent performance in a real or near-real environment; do not use for concept-only explanation, definition lookup, or one-off execution performed entirely by the assistant.
 ---
 
 # 跑通式真实能力训练
@@ -30,6 +30,7 @@ description: Turn a software, engineering, or Agent learning goal into real task
 - 每次使用完整读取 [assessment-rubric.md](references/assessment-rubric.md)，按证据和未见能力门禁判断完成状态。
 - 软件、平台、GUI、CLI 或 IDE 学习，完整读取 [software-track.md](references/software-track.md)。
 - Prompt、RAG、MCP、Workflow、Eval、Trace 或 Agent 构建，完整读取 [agent-track.md](references/agent-track.md)。
+- 课程材料驱动的学习，完整读取 [course-tutoring.md](references/course-tutoring.md)，先把课程目标、当前进度和输入输出链路接起来。
 - 第一次进入真实操作前，完整读取 [operation-gates.md](references/operation-gates.md)，只应用当前任务相关门禁。
 - 混合任务先选用户当前最需要独立完成的主轨道；另一轨道实际进入本轮任务时再读取。
 
@@ -47,6 +48,8 @@ description: Turn a software, engineering, or Agent learning goal into real task
 10. 已有证据证明同一机制时跳过重复教学，只练习新的契约、路由、权限、失败分支、风险或部署差异。
 11. 视觉材料按学习缺口选择，不默认每个新概念都生成图片；精确 GUI、代码、日志和 Trace 优先真实证据。
 12. 不显示固定学习板，不自动写入知识库，不默认生成简历或面试话术。
+
+课程学习的补充规则见 [course-tutoring.md](references/course-tutoring.md)。当用户按讲义学习、跳转新模块或表示“中间缺了背景”时，必须先应用该参考文件，再进入具体操作。
 
 ## 执行流程
 

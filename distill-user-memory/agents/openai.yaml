@@ -1,0 +1,6 @@
+interface:
+  display_name: "用户记忆提炼"
+  short_description: "从会话或项目历史找出高价值用户规律，逐条核对后再写回"
+  default_prompt: "使用 $distill-user-memory 从指定会话或项目上下文找全并排序用户记忆候选，逐条核对，最后再确认写回。"
+policy:
+  allow_implicit_invocation: false

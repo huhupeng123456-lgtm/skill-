@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务技能沉淀"
+  short_description: "从任务纠正中提炼通用方法，经确认后创建或更新可验证 Skill"
+  default_prompt: "使用 $distill-task-skill 复盘刚完成的任务，先分析原意、错误理解和用户纠正，再提出可跨任务复用的 Skill 候选。"
+policy:
+  allow_implicit_invocation: false
